@@ -1,6 +1,6 @@
-package classroom;
+package lesson;
 
-public class Classroom {
+public class Lesson {
     private int id;
     private String theme, description;
     
