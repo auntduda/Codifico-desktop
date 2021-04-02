@@ -29,8 +29,8 @@ public class User {
         return level;
     }
     
-    public void setLevel(int level) {
-        this.level = level;
+    public void levelUp() {
+        this.level = this.level + 1;
     }
 
     public int getNumExperience() {
@@ -87,5 +87,7 @@ public class User {
     
     public void setFriends(User[] friends) {
         this.friends = friends;
-    }    
+    } 
+    
+    
 }

@@ -1,9 +1,11 @@
 package course;
 
+import lesson.Lesson;
+
 public class Course {
     private int id, numClasses;
     private String name, difficulty, discription;
-    private Class lesson[]; //Discutir com o grupo a mudança do palavra reservada 'class' por 'lesson'
+    private Lesson lesson[]; //Discutir com o grupo a mudança do palavra reservada 'class' por 'lesson'
 
     public Course(int id, int numClasses, String name, String difficulty, String discription, Class[] lesson) {
         this.id = id;
@@ -46,11 +48,11 @@ public class Course {
         this.difficulty = difficulty;
     }
     
-    public Class[] getLesson() {
+    public Lesson[] getLesson() {
         return lesson;
     }
 
-    public void setLesson(Class[] lesson) {
+    public void setLesson(Lesson[] lesson) {
         this.lesson = lesson;
     }
 
