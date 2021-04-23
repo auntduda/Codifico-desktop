@@ -1,5 +1,7 @@
 package user;
 
+import java.util.Arrays;
+
 public class User {
     private int id, level, numExperience, solvedProblems, watchedClass[];
     private String name, password, photo;
@@ -87,7 +89,9 @@ public class User {
     
     public void setFriends(User[] friends) {
         this.friends = friends;
-    } 
+    }
     
-    
+    public int getNumFriends(){
+        return friends.length;
+    }
 }
