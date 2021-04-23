@@ -3,17 +3,17 @@ package course;
 import lesson.Lesson;
 
 public class Course {
-    private int id, numClasses;
-    private String name, difficulty, discription;
+    private int id, numLessons;
+    private String name, difficulty, description;
     private Lesson lesson[]; //Discutir com o grupo a mudança do palavra reservada 'class' por 'lesson'
 
-    public Course(int id, int numClasses, String name, String difficulty, String discription, Class[] lesson) {
+    public Course(int id, int numLessons, String name, String difficulty, String description, Class[] lesson) {
         this.id = id;
-        this.numClasses = numClasses;
+        this.numLessons = numLessons;
         this.name = name;
         this.difficulty = difficulty;
-        this.discription = discription;
-        this.lesson = this.lesson;
+        this.description = description;
+        this.lesson = lesson;
     }
     
     public int getId() {
@@ -32,12 +32,12 @@ public class Course {
         this.name = name;
     }
     
-    public int getNumClasses() {
-        return numClasses;
+    public int getnumLessons() {
+        return numLessons;
     }
     
-    public void setNumClasses(int numClasses) {
-        this.numClasses = numClasses;
+    public void setnumLessons(int numLessons) {
+        this.numLessons = numLessons;
     }
     
     public String getDifficulty() {
@@ -56,12 +56,12 @@ public class Course {
         this.lesson = lesson;
     }
 
-    public String getDiscription() {
-        return discription;
+    public String getDescription() {
+        return description;
     }
     
-    public void setDiscription(String discription) {
-        this.discription = discription;
+    public void setDescription(String description) {
+        this.description = description;
     }   
     
 }

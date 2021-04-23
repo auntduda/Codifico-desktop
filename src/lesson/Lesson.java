@@ -1,12 +1,12 @@
 package lesson;
 
 public class Lesson {
-    private int id, numClasses;
+    private int id, numLessons;
     private String theme, discription, problems, example;
 
-    public Lesson(int id, int numClasses, String theme, String discription, String problems, String example) {
+    public Lesson(int id, int numLessons, String theme, String discription, String problems, String example) {
         this.id = id;
-        this.numClasses = numClasses;
+        this.numLessons = numLessons;
         this.theme = theme;
         this.discription = discription;
         this.problems = problems;
@@ -21,12 +21,12 @@ public class Lesson {
         this.id = id;
     }
 
-    public int getNumClasses() {
-        return numClasses;
+    public int getNumLessons() {
+        return numLessons;
     }
     
-    public void setNumClasses(int numClasses) {
-        this.numClasses = numClasses;
+    public void setNumLessons(int numLessons) {
+        this.numLessons = numLessons;
     }
 
     public String getTheme() {
