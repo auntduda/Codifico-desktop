@@ -1,0 +1,14 @@
+
+.menu-lateral{
+   -fx-background-color: linear-gradient(from 25% 100% to 100% 0%, #E85D04, #F48C06);
+}
+
+.menu-icon:hover{
+   -fx-background-color: rgba(255, 255, 255, 0.35);
+   -fx-cursor: hand;
+}
+
+.ativo{
+   -fx-background-color: rgba(255, 255, 255, 0.35);
+   -fx-cursor: hand;
+}

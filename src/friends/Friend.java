@@ -1,4 +1,4 @@
-package friend;
+package friends;
 
 import user.User;
 import pair.Pair;
@@ -6,18 +6,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Friend {
-    public int qtd = user.getNumFriends();
     public ArrayList<Pair<String, Integer>> parAmigos = new ArrayList<Pair<String, Integer>>();
     public Pair<String, Integer> rank = new Pair<String, Integer>();
-    public Integer[] ordenar = new Integer[qtd];
+    public ArrayList<Integer> ordenar = new ArrayList<Integer>();
     public ArrayList<Pair<String, Integer>> ranking = new ArrayList<Pair<String, Integer>>();
     public ArrayList<Pair<String, Integer>> status = new ArrayList<Pair<String, Integer>>();
 
     public ArrayList<Pair<String, Integer>> friendsSorted(User[] abigos) {
-        for (int i = 0; i < qtd; i++) {
-            parAmigos.add(rank.setValue(abigos[i].getName(), abigos[i].getNumExperience()));
+        for (int i = 0; i < abigos.length; i++) {
+//            parAmigos.add(rank.setValue(abigos[i].getName(), abigos[i].getNumExperience()));
 
-            ordenar[i] = abigos[i].getLevel();
+            ordenar.add(abigos[i].getLevel());
         }
 
         Arrays.sort(ordenar);

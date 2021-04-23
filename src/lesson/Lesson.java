@@ -53,9 +53,9 @@ public class Lesson {
         this.problems = problems;
     }
     
-//    public void randomProblems(String problems) {
-//        this.problems = problems;
-//    }
+    public void randomProblems(String problems) {
+        this.problems = problems;
+    }
 
     public String getExample() {
         return example;

@@ -5,9 +5,9 @@ import lesson.Lesson;
 public class Course {
     private int id, numLessons;
     private String name, difficulty, description;
-    private Lesson lesson[]; //Discutir com o grupo a mudança do palavra reservada 'class' por 'lesson'
+    private Lesson lesson[];
 
-    public Course(int id, int numLessons, String name, String difficulty, String description, Class[] lesson) {
+    public Course(int id, int numLessons, String name, String difficulty, String description, Lesson[] lesson) {
         this.id = id;
         this.numLessons = numLessons;
         this.name = name;
