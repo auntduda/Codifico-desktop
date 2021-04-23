@@ -1,0 +1,54 @@
+.cursos-titulo{
+
+}
+
+.curso{
+    -fx-background-color: linear-gradient(from 25% 100% to 100% 0%, #E85D04, #F48C06);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+
+    -fx-effect: dropshadow(gaussian, #0000003f, 30, 0, 1, 1);
+    
+}
+
+.curso:hover{
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-scale-z: 1.05;
+}
+
+.curso-branco{
+    -fx-background-color: white;
+    -fx-border-radius: 20px 20px 0 0;
+    -fx-background-radius: 20px 20px 0 0;
+}
+
+.curso-nome{
+    -fx-font-size: 30;
+}
+
+.curso-descricao{
+    -fx-font-size: 20;
+}
+
+.curso-xp-texto{
+    -fx-font-size: 20;
+    -fx-text-fill: #ffffff;
+}
+
+.curso-xp-cont{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #1C941C;
+    
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.curso-aulas{
+}
+
+.curso-exercicos{
+}
+
+
