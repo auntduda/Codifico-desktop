@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Polyline?>
 
-<AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:controller="projetocodifico.FXMLDocumentController" maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane layoutX="1.0" layoutY="-5.0" prefHeight="774.0" prefWidth="1024.0" stylesheets="@../styles/login.css">
          <children>
@@ -21,7 +21,7 @@
                </image>
             </ImageView>
             <TextField layoutX="601.0" layoutY="260.0" maxHeight="60.0" maxWidth="340.0" minHeight="49.0" minWidth="340.0" prefHeight="60.0" prefWidth="340.0" promptText="E-mail" styleClass="textfield-login" />
-            <Button layoutX="671.0" layoutY="410.0" mnemonicParsing="false" styleClass="btn-entrar" text="ENTRAR" />
+            <Button layoutX="671.0" layoutY="410.0" mnemonicParsing="false" onAction="#loadCursos" styleClass="btn-entrar" text="ENTRAR" />
             <Label contentDisplay="CENTER" layoutX="681.0" layoutY="587.0" minWidth="140.0" prefHeight="21.0" prefWidth="173.0" styleClass="textfield-cadastro" text="Não possui conta? " />
             <Button layoutX="636.0" layoutY="620.0" maxWidth="530.0" mnemonicParsing="false" prefWidth="530.0" styleClass="btn-cadastro" text="Cadastre-se aqui" />
             <ImageView fitHeight="328.0" fitWidth="247.0" layoutX="126.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
