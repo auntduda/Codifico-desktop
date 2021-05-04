@@ -1,4 +1,4 @@
-package problems;
+[package problems;
 
 public class Problems {
     private int id, experience;
@@ -63,4 +63,4 @@ public class Problems {
     public boolean checkAswer(String Aswer){
         return rigthAlternative.equals(Aswer);
     }
-}
+}]
