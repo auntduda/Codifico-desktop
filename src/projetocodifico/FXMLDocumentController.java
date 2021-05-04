@@ -23,6 +23,7 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("initialize");
     }
     
+    @FXML
     public void loadCursosInicial(ActionEvent event) throws IOException {
         Parent cursos;
         cursos = FXMLLoader.load(getClass().getResource("../telas/cursos.fxml"));
@@ -50,6 +51,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     public void loadCadastro(ActionEvent event) throws IOException {
         Parent cadastro;
         cadastro = FXMLLoader.load(getClass().getResource("../telas/cadastro.fxml"));
@@ -134,6 +136,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula1(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula1;
         aula1 = FXMLLoader.load(getClass().getResource("../telas/aula1.fxml"));
@@ -147,6 +150,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula1Ex(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula1ex;
         aula1ex = FXMLLoader.load(getClass().getResource("../telas/aula1ex.fxml"));
@@ -160,6 +164,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula2(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula2;
         aula2 = FXMLLoader.load(getClass().getResource("../telas/aula2.fxml"));
@@ -173,6 +178,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula2Ex(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula2ex;
         aula2ex = FXMLLoader.load(getClass().getResource("../telas/aula2ex.fxml"));
@@ -186,6 +192,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula3(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula3;
         aula3 = FXMLLoader.load(getClass().getResource("../telas/aula3.fxml"));
@@ -199,6 +206,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula3Ex(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula3ex;
         aula3ex = FXMLLoader.load(getClass().getResource("../telas/aula3ex.fxml"));
@@ -212,6 +220,7 @@ public class FXMLDocumentController implements Initializable {
         mainWindow.setScene(newScene);
     }
     
+    @FXML
     private void loadAula4(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula4;
         aula4 = FXMLLoader.load(getClass().getResource("../telas/aula4.fxml"));
@@ -224,8 +233,9 @@ public class FXMLDocumentController implements Initializable {
         mainWindow = (Stage)((Node)event.getSource()).getScene().getWindow();
         mainWindow.setScene(newScene);
     }
-    
-    private void loadAula4Ex(javafx.scene.input.MouseEvent event) throws IOException {
+
+    @FXML
+    private void loadAulas4Ex(javafx.scene.input.MouseEvent event) throws IOException {
         Parent aula4ex;
         aula4ex = FXMLLoader.load(getClass().getResource("../telas/aula4ex.fxml"));
         System.out.println(aula4ex);
@@ -237,4 +247,5 @@ public class FXMLDocumentController implements Initializable {
         mainWindow = (Stage)((Node)event.getSource()).getScene().getWindow();
         mainWindow.setScene(newScene);
     }
+
 }

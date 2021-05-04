@@ -14,6 +14,7 @@ public class ProjetoCodifico extends Application {
     public void start(Stage stage) throws Exception {
         Parent telaLogin = FXMLLoader.load(getClass().getResource("../telas/login.fxml"));
 
+
         Scene scene = new Scene(telaLogin);
 
         stage.setScene(scene);

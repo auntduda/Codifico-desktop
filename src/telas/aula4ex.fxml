@@ -61,21 +61,21 @@
       </Pane>
       <Pane layoutX="99.0" layoutY="-5.0" prefHeight="774.0" prefWidth="926.0" stylesheets="@../styles/cursos.css">
          <children>
-            <Label layoutX="117.0" layoutY="21.0" styleClass="cursos-titulo" text="Aula 1 - Decomposição" textAlignment="CENTER">
+            <Label layoutX="186.0" layoutY="26.0" styleClass="cursos-titulo" text="Aula 4 - Algoritmo" textAlignment="CENTER">
                <font>
                   <Font size="60.0" />
                </font>
             </Label>
             <Pane layoutX="16.0" layoutY="113.0" prefHeight="640.0" prefWidth="892.0" styleClass="cont">
                <children>
-                  <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="43.0" layoutY="41.0" prefHeight="170.0" prefWidth="800.0" style="-fx-padding: 13px;" text="O ato de decompor um problema em sub-problemas é fundamental para que:" textAlignment="JUSTIFY" wrapText="true">
+                  <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="43.0" layoutY="41.0" prefHeight="182.0" prefWidth="800.0" style="-fx-padding: 13px;" text="Por que é necessário estipular uma sequência de instruções?" textAlignment="JUSTIFY" wrapText="true">
                      <font>
                         <Font size="23.0" />
                      </font>
                   </Label>
                   <Pane layoutX="41.0" layoutY="233.0" prefHeight="156.0" prefWidth="391.0" style="-fx-background-color: #ffffff;">
                      <children>
-                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="O usuário possa contabilizar quantos sub-problemas existem." textAlignment="CENTER" wrapText="true">
+                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="porque não sabemos para onde vamos, e nem de onde viemos." textAlignment="CENTER" wrapText="true">
                            <font>
                               <Font size="22.0" />
                            </font>
@@ -84,16 +84,16 @@
                   </Pane>
                   <Pane layoutX="457.0" layoutY="233.0" prefHeight="156.0" prefWidth="391.0" style="-fx-background-color: #ffffff;">
                      <children>
-                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="A criação de uma estrutura de dado &quot;grafo&quot; possa ser construída." textAlignment="CENTER" wrapText="true">
+                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="porque os dados informados pelo usuário constroem instruções próprias ao serem fornecidos à máquina" textAlignment="CENTER" wrapText="true">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Label>
                      </children>
                   </Pane>
-                  <Pane layoutX="45.0" layoutY="428.0" onMouseClicked="#loadAula2" prefHeight="156.0" prefWidth="391.0" style="-fx-background-color: #ffffff;">
+                  <Pane layoutX="45.0" layoutY="428.0" onMouseClicked="#loadCursosInscritos" prefHeight="156.0" prefWidth="391.0" style="-fx-background-color: #ffffff;">
                      <children>
-                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="A resposta do problema possa ser gerada de maneira mais simples." textAlignment="CENTER" wrapText="true">
+                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="porque é preciso dizer quais passos serão feitos para que o problema tenha solução" textAlignment="CENTER" wrapText="true">
                            <font>
                               <Font size="22.0" />
                            </font>
@@ -102,7 +102,7 @@
                   </Pane>
                   <Pane layoutX="461.0" layoutY="428.0" prefHeight="156.0" prefWidth="391.0" style="-fx-background-color: #ffffff;">
                      <children>
-                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="O problema possa ser decomposto." textAlignment="CENTER" wrapText="true">
+                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="9.0" prefHeight="138.0" prefWidth="371.0" text="porque o algoritmo recebe dados do usuário, e é necessário que haja um programa para eles" textAlignment="CENTER" wrapText="true">
                            <font>
                               <Font size="22.0" />
                            </font>

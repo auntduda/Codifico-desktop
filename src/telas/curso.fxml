@@ -123,8 +123,4 @@
          </children>
       </Pane>
    </children>
-   <stylesheets>
-      <URL value="@../styles/cursos.css" />
-      <URL value="@../styles/curso.css" />
-   </stylesheets>
 </AnchorPane>
