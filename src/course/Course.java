@@ -15,39 +15,39 @@ public class Course {
         this.description = description;
         this.lesson = lesson;
     }
-    
+
     public int getId() {
         return id;
     }
-    
+
     public void setId(int id) {
         this.id = id;
     }
-    
+
     public String getName() {
         return name;
     }
-    
+
     public void setName(String name) {
         this.name = name;
     }
-    
+
     public int getnumLessons() {
         return numLessons;
     }
-    
+
     public void setnumLessons(int numLessons) {
         this.numLessons = numLessons;
     }
-    
+
     public String getDifficulty() {
         return difficulty;
     }
-    
+
     public void setDifficulty(String difficulty) {
         this.difficulty = difficulty;
     }
-    
+
     public Lesson[] getLesson() {
         return lesson;
     }
@@ -59,9 +59,9 @@ public class Course {
     public String getDescription() {
         return description;
     }
-    
+
     public void setDescription(String description) {
         this.description = description;
-    }   
-    
+    }
+
 }
