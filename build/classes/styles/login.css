@@ -3,7 +3,7 @@
 } */
 
 .fundo {
-    -fx-fill: linear-gradient(from 0% 100% to 100% 0%, #E85D04, #F48C06)
+    -fx-fill: linear-gradient(from 0% 100% to 100% 0%, #E85D04, #F48C06);
 }
 
 .textfield-login {

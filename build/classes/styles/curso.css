@@ -1,0 +1,15 @@
+.cont{
+    -fx-background-color: linear-gradient(from 25% 100% to 100% 0%, #E85D04, #F48C06);
+}
+
+.aulas{
+    -fx-background-color:white;
+}
+
+.aulas:hover{
+    -fx-background-color:rgb(214, 214, 214);
+}
+
+.aulas-feito{
+    -fx-background-color:rgb(99, 202, 96);
+}

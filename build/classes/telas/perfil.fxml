@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetocodifico.FXMLDocumentController">
+   <children>
+      <Pane prefHeight="768.0" prefWidth="100.0" styleClass="menu-lateral" stylesheets="@../styles/menuLateral.css">
+         <children>
+            <Pane layoutY="192.0" onMouseClicked="#loadPerfil" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="29.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/perfil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="292.0" onMouseClicked="#loadCursos" prefHeight="100.0" prefWidth="100.0" styleClass="ativo">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="32.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/cursos.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="392.0" onMouseClicked="#loadCursosInscritos" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/home.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="492.0" onMouseClicked="#loadRank" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/estati.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="668.0" onMouseClicked="#loadLogin" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="31.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-perfil">
+                     <image>
+                        <Image url="@../img/sair.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="99.0" layoutY="-5.0" prefHeight="774.0" prefWidth="926.0" stylesheets="@../UnB/Codifico/src/styles/cursos.css">
+         <children>
+            <Label layoutX="387.0" layoutY="37.0" styleClass="cursos-titulo" text="Perfil" textAlignment="CENTER">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Label>
+            <Label layoutX="349.0" layoutY="188.0" text="Edgar Sampaio">
+               <font>
+                  <Font name="System Bold" size="63.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="271.0" prefHeight="30.0" prefWidth="523.0" text="999 Problemas resolvidos | Intermediário">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Pane layoutX="50.0" layoutY="134.0" prefHeight="263.0" prefWidth="263.0" style="-fx-background-radius: 50%; -fx-background-color: red;">
+               <children>
+                  <Pane layoutY="189.0" prefHeight="74.0" prefWidth="74.0" style="-fx-background-color: linear-gradient(from 0% 100% to 100% 0%, #E85D04, #F48C06); -fx-background-radius: 50%; -fx-border-color: #f0f0f0; -fx-border-radius: 50%; -fx-border-width: 5px;">
+                     <children>
+                        <Label layoutX="11.0" layoutY="17.0" text="#2">
+                           <font>
+                              <Font name="System Bold" size="34.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+   <stylesheets>
+      <URL value="@../UnB/Codifico/src/styles/cursos.css" />
+      <URL value="@../UnB/Codifico/src/styles/curso.css" />
+   </stylesheets>
+</AnchorPane>

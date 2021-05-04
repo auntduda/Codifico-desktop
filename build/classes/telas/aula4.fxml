@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="768.0" prefWidth="100.0" styleClass="menu-lateral" stylesheets="@../styles/menuLateral.css">
+         <children>
+            <Pane layoutY="192.0" onMouseClicked="#loadPerfil" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="29.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/perfil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="292.0" onMouseClicked="#loadCursos" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="32.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/cursos.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="392.0" onMouseClicked="#loadCursosInscritos" prefHeight="100.0" prefWidth="100.0" styleClass="ativo">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/home.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="492.0" onMouseClicked="#loadRank" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/estati.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="668.0" onMouseClicked="#loadLogin" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="31.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-perfil">
+                     <image>
+                        <Image url="@../img/sair.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="99.0" layoutY="-5.0" prefHeight="774.0" prefWidth="926.0" stylesheets="@../styles/cursos.css">
+         <children>
+            <Label layoutX="186.0" layoutY="27.0" styleClass="cursos-titulo" text="Aula 4 - Algoritmo" textAlignment="CENTER">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Label>
+            <Pane layoutX="16.0" layoutY="113.0" prefHeight="640.0" prefWidth="892.0" styleClass="cont">
+               <children>
+                  <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="21.0" layoutY="46.0" prefHeight="403.0" prefWidth="851.0" style="-fx-padding: 13px;" text="Por fim, o problema deve ser estruturado em uma sequência de decisões e instruções, as quais realizarão tarefas sequenciais que, ao final, entregarão o resultado solicitado. Esta etapa, denominada Algoritmo, é fundamental na implementação da solução de problemas diversos, já que o computador só se comunica com seres humanos a partir daquilo que chamamos de Linguagem de Programação. Tome como exemplo o ato de convidar uma pessoa para um encontro: você pergunta à pessoa se ela gostaria de sair com você, e espera uma resposta para que uma decisão seja tomada. Caso a pessoa diga que sim, vocês tem um encontro marcado, e caso a resposta seja não, você pode chorar no caminho para casa." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="778.0" layoutY="526.0" onMouseClicked="#loadAulas4Ex" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-perfil">
+                           <image>
+                              <Image url="@../img/next.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+   <stylesheets>
+      <URL value="@../styles/cursos.css" />
+      <URL value="@../styles/curso.css" />
+   </stylesheets>
+</AnchorPane>

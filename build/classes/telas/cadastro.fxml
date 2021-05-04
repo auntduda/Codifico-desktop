@@ -9,18 +9,18 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Polyline?>
 
-<AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetocodifico.FXMLDocumentController">
    <children>
-      <Pane layoutX="1.0" layoutY="-5.0" prefHeight="774.0" prefWidth="1024.0" stylesheets="@../styles/cadastro.css">
+      <Pane layoutX="1.0" layoutY="-5.0" prefHeight="768.0" prefWidth="1024.0" stylesheets="@../styles/cadastro.css">
          <children>
             <Polyline fill="BLACK" layoutX="641.0" layoutY="451.0" points="383.0, -451.0, 383.0, 323.0, -230.0, 323.0, -69.0, -451.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" styleClass="fundo" />
-            <ImageView fitHeight="65.0" fitWidth="386.0" layoutX="73.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" >
+            <ImageView fitHeight="65.0" fitWidth="386.0" layoutX="73.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/codificoLogo.png" />
                </image>
             </ImageView>
             <TextField layoutX="603.0" layoutY="323.0" maxHeight="60.0" maxWidth="340.0" minHeight="49.0" minWidth="340.0" prefHeight="60.0" prefWidth="340.0" promptText="Nome" styleClass="textfield-login" />
-            <Button layoutX="674.0" layoutY="470.0" maxWidth="210.0" mnemonicParsing="false" prefWidth="210.0" styleClass="btn-entrar" text="CADASTRAR" />
+            <Button layoutX="674.0" layoutY="470.0" maxWidth="210.0" mnemonicParsing="false" onAction="#loadCursosInscritos" prefWidth="210.0" styleClass="btn-entrar" text="CADASTRAR" />
             <ImageView fitHeight="328.0" fitWidth="247.0" layoutX="126.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/codi_alfredo.png" />

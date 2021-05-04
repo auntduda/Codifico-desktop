@@ -11,10 +11,10 @@
 
 <AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="1.0" layoutY="-5.0" prefHeight="774.0" prefWidth="1024.0" stylesheets="@../styles/cadastro.css">
+      <Pane layoutX="1.0" layoutY="-5.0" prefHeight="768.0" prefWidth="1024.0" stylesheets="@../styles/cadastro.css">
          <children>
             <Polyline fill="BLACK" layoutX="641.0" layoutY="451.0" points="383.0, -451.0, 383.0, 323.0, -230.0, 323.0, -69.0, -451.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" styleClass="fundo" />
-            <ImageView fitHeight="65.0" fitWidth="386.0" layoutX="73.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" >
+            <ImageView fitHeight="65.0" fitWidth="386.0" layoutX="73.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/codificoLogo.png" />
                </image>
