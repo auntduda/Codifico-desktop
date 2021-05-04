@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-15.0" prefHeight="783.0" prefWidth="100.0" styleClass="menu-lateral" stylesheets="@../styles/menuLateral.css">
+         <children>
+            <Pane layoutY="192.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="29.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/perfil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="292.0" prefHeight="100.0" prefWidth="100.0" styleClass="ativo">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="32.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/cursos.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="392.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/home.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="492.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/estati.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="683.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="31.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-perfil">
+                     <image>
+                        <Image url="@../img/sair.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="99.0" layoutY="-5.0" prefHeight="774.0" prefWidth="926.0" stylesheets="@../styles/cursos.css">
+         <children>
+            <Label layoutX="361.0" layoutY="23.0" styleClass="cursos-titulo" text="Cursos" textAlignment="CENTER">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Label>
+            <Pane layoutX="52.0" layoutY="119.0" prefHeight="265.0" prefWidth="370.0" styleClass="curso" stylesheets="@../styles/cursos.css">
+               <children>
+                  <Pane prefHeight="132.0" prefWidth="370.0" styleClass="curso-branco">
+                     <children>
+                        <Label layoutX="61.0" layoutY="66.0" prefHeight="20.0" prefWidth="249.0" text="Fundamentos de Programaçao">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="134.0" layoutY="21.0" styleClass="curso-nome" text="Python 4">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="34.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="26.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/aula.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="227.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="27.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/exercicios.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label id="curso_aulas" layoutX="45.0" layoutY="225.0" styleClass="curso-aulas" text="7 Aulas">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label id="curso_exercicio" layoutX="188.0" layoutY="225.0" styleClass="curso-exercicos" text="+10 Exercícios">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="107.0" layoutY="116.0" prefHeight="34.0" prefWidth="157.0" styleClass="curso-xp-cont">
+                     <children>
+                        <Label layoutX="43.0" layoutY="5.0" styleClass="curso-xp-texto" text="500 XP" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="503.0" layoutY="119.0" prefHeight="265.0" prefWidth="370.0" styleClass="curso" stylesheets="@../styles/cursos.css">
+               <children>
+                  <Pane prefHeight="132.0" prefWidth="370.0" styleClass="curso-branco">
+                     <children>
+                        <Label layoutX="61.0" layoutY="66.0" prefHeight="20.0" prefWidth="249.0" text="Fundamentos de Programaçao">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="134.0" layoutY="21.0" styleClass="curso-nome" text="Python 4">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="34.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="26.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/aula.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="227.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="27.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/exercicios.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label id="curso_aulas" layoutX="45.0" layoutY="225.0" styleClass="curso-aulas" text="7 Aulas">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label id="curso_exercicio" layoutX="188.0" layoutY="225.0" styleClass="curso-exercicos" text="+10 Exercícios">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="107.0" layoutY="116.0" prefHeight="34.0" prefWidth="157.0" styleClass="curso-xp-cont">
+                     <children>
+                        <Label layoutX="43.0" layoutY="5.0" styleClass="curso-xp-texto" text="500 XP" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="52.0" layoutY="443.0" prefHeight="265.0" prefWidth="370.0" styleClass="curso" stylesheets="@../styles/cursos.css">
+               <children>
+                  <Pane prefHeight="132.0" prefWidth="370.0" styleClass="curso-branco">
+                     <children>
+                        <Label layoutX="61.0" layoutY="66.0" prefHeight="20.0" prefWidth="249.0" text="Fundamentos de Programaçao">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="134.0" layoutY="21.0" styleClass="curso-nome" text="Python 4">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="34.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="26.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/aula.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="227.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="27.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/exercicios.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label id="curso_aulas" layoutX="45.0" layoutY="225.0" styleClass="curso-aulas" text="7 Aulas">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label id="curso_exercicio" layoutX="188.0" layoutY="225.0" styleClass="curso-exercicos" text="+10 Exercícios">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="107.0" layoutY="116.0" prefHeight="34.0" prefWidth="157.0" styleClass="curso-xp-cont">
+                     <children>
+                        <Label layoutX="43.0" layoutY="5.0" styleClass="curso-xp-texto" text="500 XP" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="503.0" layoutY="443.0" prefHeight="265.0" prefWidth="370.0" styleClass="curso" stylesheets="@../styles/cursos.css">
+               <children>
+                  <Pane prefHeight="132.0" prefWidth="370.0" styleClass="curso-branco">
+                     <children>
+                        <Label layoutX="61.0" layoutY="66.0" prefHeight="20.0" prefWidth="249.0" text="Fundamentos de Programaçao">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="134.0" layoutY="21.0" styleClass="curso-nome" text="Python 4">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="34.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="26.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/aula.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="227.0" layoutY="132.0" prefHeight="100.0" prefWidth="100.0" styleClass="menu-icon">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="27.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/exercicios.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label id="curso_aulas" layoutX="45.0" layoutY="225.0" styleClass="curso-aulas" text="7 Aulas">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label id="curso_exercicio" layoutX="188.0" layoutY="225.0" styleClass="curso-exercicos" text="+10 Exercícios">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="107.0" layoutY="116.0" prefHeight="34.0" prefWidth="157.0" styleClass="curso-xp-cont">
+                     <children>
+                        <Label layoutX="43.0" layoutY="5.0" styleClass="curso-xp-texto" text="500 XP" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
